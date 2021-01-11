@@ -8,8 +8,7 @@ namespace co
 {
 
 /// 协程锁
-class CoMutex
-{
+class CoMutex {
     typedef std::mutex lock_t;
     lock_t lock_;
     bool notified_ = false;
